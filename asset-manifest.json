@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5850f4ca.css",
-    "main.js": "/static/js/main.f4e2bf68.js",
-    "index.html": "/index.html",
-    "main.5850f4ca.css.map": "/static/css/main.5850f4ca.css.map",
-    "main.f4e2bf68.js.map": "/static/js/main.f4e2bf68.js.map"
+    "main.css": "/zakarya_elkhattabi/static/css/main.3df641ec.css",
+    "main.js": "/zakarya_elkhattabi/static/js/main.b7fd956e.js",
+    "index.html": "/zakarya_elkhattabi/index.html",
+    "main.3df641ec.css.map": "/zakarya_elkhattabi/static/css/main.3df641ec.css.map",
+    "main.b7fd956e.js.map": "/zakarya_elkhattabi/static/js/main.b7fd956e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5850f4ca.css",
-    "static/js/main.f4e2bf68.js"
+    "static/css/main.3df641ec.css",
+    "static/js/main.b7fd956e.js"
   ]
 }
