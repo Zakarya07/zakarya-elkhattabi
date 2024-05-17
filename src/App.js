@@ -1,10 +1,18 @@
+import Header from "./Components/Header";
 
 function App() {
   return (
-    <div>
-      <h1>React App</h1>
+    <div className="App">
+      {/* Header */}
+        <Header />
+
+      {/* Main */}
+      <main>
+      </main>
+
+      {/* Footer */}
     </div>
-  )
+  );
 }
 
 export default App;
