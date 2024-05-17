@@ -4,33 +4,55 @@ import "./index.scss";
 import { useState } from "react";
 
 const Header = () => {
-
   const [isClosed, setClosed] = useState(true);
 
   function openMenuMobile() {
-      setClosed(false);
+    setClosed(false);
   }
 
   function closeMenuMobile() {
-      setClosed(true);
+    setClosed(true);
   }
 
   return (
     <header>
-
       <nav className="navbar-container fixed p-5 flex justify-between w-full">
         {/* Logo container */}
         <div className="logo-container">
           <h2 className="text-xl font-bold">Zakarya.dev</h2>
         </div>
 
-        <div className="open-menu-mobile text-2xl" onClick={() => {openMenuMobile()}}>
+        <ul className="menu-links hidden lg:flex ">
+          <li>
+            <a href="#header">Accueil</a>
+          </li>
+          <li>
+            <a href="#about-section">À propos</a>
+          </li>
+          <li>
+            <a href="#portfolio-section">Projets</a>
+          </li>
+          <li>
+            <a href="#footer">Contact</a>
+          </li>
+        </ul>
+
+        <div
+          className="open-menu-mobile text-2xl lg:hidden"
+          onClick={() => {
+            openMenuMobile();
+          }}
+        >
           <FaBars />
         </div>
       </nav>
 
       {/* -------------- Menu container */}
-      <div className={`${isClosed ? "menu-mobile" : "menu-mobile-active"} bg-white fixed z-10 h-screen w-full text-2xl`}>
+      <div
+        className={`${
+          isClosed ? "menu-mobile" : "menu-mobile-active"
+        } bg-white fixed z-10 h-screen w-full text-2xl`}
+      >
         {/* Close button  */}
         <div
           className="close-menu-mobile flex justify-end p-5 h-1/5"
