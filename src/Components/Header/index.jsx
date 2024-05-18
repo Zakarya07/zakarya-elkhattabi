@@ -15,7 +15,7 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <header className="bg-green-500">
       <nav className="navbar-container fixed p-5 flex justify-between w-full">
         {/* Logo container */}
         <div className="logo-container">
@@ -55,7 +55,7 @@ const Header = () => {
       >
         {/* Close button  */}
         <div
-          className="close-menu-mobile flex justify-end p-5 h-1/5"
+          className="close-menu-mobile flex justify-end p-5"
           onClick={() => {
             closeMenuMobile();
           }}
@@ -64,18 +64,25 @@ const Header = () => {
         </div>
 
         {/* Links */}
-        <ul className="flex flex-col items-center font-semibold justify-evenly py-5 gap-y-16">
+        <ul className="flex flex-col items-center font-semibold justify-evenly py-5 gap-y-16 mt-12"
+          onClick={(e) => {
+            if (e.target.tagName === "A") {
+              closeMenuMobile();
+            }
+            
+          }}
+        >
           <li>
-            <a href="#header">Accueil</a>
+            <a className="inline-block p-3" href="#header">Accueil</a>
           </li>
           <li>
-            <a href="#about-section">À propos</a>
+            <a className="inline-block p-3" href="#about-section">À propos</a>
           </li>
           <li>
-            <a href="#portfolio-section">Projets</a>
+            <a className="inline-block p-3" href="#portfolio-section">Projets</a>
           </li>
           <li>
-            <a href="#footer">Contact</a>
+            <a className="inline-block p-3" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
