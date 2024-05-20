@@ -1,5 +1,5 @@
-import Github from "../../assets/images/github-icon1.png";
-import LinkedIn from "../../assets/images/linkedin-square-icon1.png";
+import Github from "../../assets/images/icons/github-icon1.png";
+import LinkedIn from "../../assets/images/icons/linkedin-square-icon1.png";
 import Socials from "../Socials";
 
 const Copyright = () => {
@@ -17,7 +17,7 @@ const Copyright = () => {
       {/* Socials */}
       <div className="copyright-socials flex flex-wrap gap-6 mt-5 lg:mt-0">
         <Socials icon={LinkedIn} link="https://www.linkedin.com/in/zakarya-elkhattabi/"/>
-        <Socials icon={Github} link="https://www.linkedin.com/in/zakarya-elkhattabi/"/>
+        <Socials icon={Github} link="https://github.com/Zakarya07"/>
       </div>
       </div>
     </div>

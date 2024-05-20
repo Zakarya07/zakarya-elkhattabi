@@ -15,8 +15,8 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-green-500">
-      <nav className="navbar-container fixed p-5 flex justify-between w-full">
+    <header className="bg-white fixed top-0 w-full">
+      <nav className="navbar-container p-5 flex justify-between">
         {/* Logo container */}
         <div className="logo-container">
           <h2 className="text-xl font-bold">Zakarya.dev</h2>
@@ -51,7 +51,7 @@ const Header = () => {
       <div
         className={`${
           isClosed ? "menu-mobile" : "menu-mobile-active"
-        } bg-white fixed z-10 h-screen w-full text-2xl`}
+        } bg-white fixed top-0 z-10 h-screen w-full text-2xl`}
       >
         {/* Close button  */}
         <div

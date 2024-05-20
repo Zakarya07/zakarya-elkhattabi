@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -14,6 +14,33 @@
   margin-left: auto;
   max-width: 960px;
   padding-left: 12px;
-  padding-right:12px;
+  padding-right: 12px;
 }
 
+
+// Profile image
+.profile-image-container {
+  background-image: url("./assets/images/zakarya.jpg");
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  animation: morph 10s ease-in-out infinite;
+}
+// Profile social icon 
+.profile-socials-container {  
+  & > div {
+    height: 30px;
+    aspect-ratio: 1/1;
+  }
+}
+
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
