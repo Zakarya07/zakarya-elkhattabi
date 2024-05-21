@@ -1,21 +1,24 @@
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import Portfolio from "./Components/Porftolio";
 import Profile from "./Components/Profile";
 import TechStack from "./Components/TechStack";
-
 
 function App() {
   return (
     <div className="App">
-      {/* Header */}
+      {/* ------------------------------ Header */}
       <Header />
 
-      {/* Main */}
+      {/* ------------------------------ Main */}
       <main className="wrapper mt-20">
-      <Profile/>
+        {/* Profile */}
+        <Profile />
+        {/* Portfolio */}
+        <Portfolio/>
       </main>
 
-      {/* Footer */}
+      {/* ------------------------------ Footer */}
       <Footer />
     </div>
   );

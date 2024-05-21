@@ -1,4 +1,4 @@
-import Github from "../../assets/images/icons/github-icon1.png";
+import Github from "../../assets/images/icons/github-white.png"
 import LinkedIn from "../../assets/images/icons/linkedin-square-icon1.png";
 import Socials from "../Socials";
 import TechStack from "../TechStack";
