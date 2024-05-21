@@ -1,10 +1,11 @@
 import Github from "../../assets/images/icons/github-icon1.png";
 import LinkedIn from "../../assets/images/icons/linkedin-square-icon1.png";
 import Socials from "../Socials";
+import TechStack from "../TechStack";
 
 const Profile = () => {
     return ( 
-      <section id="profile" className="wrapper py-5 grid place-items-center">
+      <section id="profile" className="py-5 grid place-items-center">
       {/* Image profile */}
       <div className="profile-image-container h-56 aspect-square bg-center bg-cover bg-no-repeat border-2 border-black my-5"></div>
       {/* Profile title */}
@@ -26,6 +27,9 @@ const Profile = () => {
         <Socials link="https://github.com/Zakarya07" icon={Github}/>
         </div>
       </div>
+
+      {/* Technologies stack */}
+      <TechStack stack_title="Tech stack"/>
     </section>
      )
 }

@@ -1,6 +1,7 @@
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
+import TechStack from "./Components/TechStack";
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Header />
 
       {/* Main */}
-      <main className="mt-20">
+      <main className="wrapper mt-20">
       <Profile/>
       </main>
 
