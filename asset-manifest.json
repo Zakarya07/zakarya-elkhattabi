@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/zakarya_elkhattabi/static/css/main.f373dd46.css",
-    "main.js": "/zakarya_elkhattabi/static/js/main.404a6544.js",
+    "main.css": "/zakarya_elkhattabi/static/css/main.a4696cff.css",
+    "main.js": "/zakarya_elkhattabi/static/js/main.5ab56005.js",
+    "static/media/about-section.jpg": "/zakarya_elkhattabi/static/media/about-section.85c861f39a6d893ae47d.jpg",
     "static/media/Kasa.jpg": "/zakarya_elkhattabi/static/media/Kasa.92d2fe560fc630c2503d.jpg",
+    "static/media/self-learning.jpg": "/zakarya_elkhattabi/static/media/self-learning.fb2fba2b3e8d66676cac.jpg",
     "static/media/zakarya.jpg": "/zakarya_elkhattabi/static/media/zakarya.97e6134efa29dee1b161.jpg",
     "static/media/MonVieuxGrimoire.jpg": "/zakarya_elkhattabi/static/media/MonVieuxGrimoire.c79bda691afc80b9b1ce.jpg",
     "static/media/Parti-radical.jpg": "/zakarya_elkhattabi/static/media/Parti-radical.d01f54342967043f90f1.jpg",
+    "static/media/Logo_simplon.png": "/zakarya_elkhattabi/static/media/Logo_simplon.1fda12f09cf9b391898c.png",
     "index.html": "/zakarya_elkhattabi/index.html",
-    "main.f373dd46.css.map": "/zakarya_elkhattabi/static/css/main.f373dd46.css.map",
-    "main.404a6544.js.map": "/zakarya_elkhattabi/static/js/main.404a6544.js.map"
+    "main.a4696cff.css.map": "/zakarya_elkhattabi/static/css/main.a4696cff.css.map",
+    "main.5ab56005.js.map": "/zakarya_elkhattabi/static/js/main.5ab56005.js.map"
   },
   "entrypoints": [
-    "static/css/main.f373dd46.css",
-    "static/js/main.404a6544.js"
+    "static/css/main.a4696cff.css",
+    "static/js/main.5ab56005.js"
   ]
 }
