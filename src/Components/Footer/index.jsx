@@ -4,7 +4,7 @@ import SectionTitles from "../SectionTitles";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="mt-10">
       <div className="footer-container wrapper py-5">
         {/* Title of section */}
         <SectionTitles title="Contact">

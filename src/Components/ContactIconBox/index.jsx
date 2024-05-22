@@ -8,7 +8,7 @@ const ContactIconBox = ({ title, value, children }) => {
         // Vérifier si le composant enfant existe et est valide
         if (React.isValidElement(child)) {
             // Cloner l'enfant avec la classe Tailwind spécifiée
-            return React.cloneElement(child, { className: "text-sky-400" });
+            return React.cloneElement(child, { className: "text-sky-600" });
         }
         return child;
     });

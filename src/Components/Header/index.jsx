@@ -15,11 +15,11 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-white fixed top-0 w-full">
+    <header className="bg-white fixed z-10 top-0 w-full">
       <nav className="navbar-container p-5 flex justify-between">
         {/* Logo container */}
         <div className="logo-container">
-          <h2 className="text-xl font-bold">Zakarya.dev</h2>
+          <h2 className="text-xl font-extrabold">Zakarya.dev</h2>
         </div>
 
         <ul className="menu-links hidden lg:flex ">

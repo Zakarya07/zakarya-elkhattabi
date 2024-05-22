@@ -5,7 +5,7 @@ import TechStack from "../TechStack";
 
 const Profile = () => {
     return ( 
-      <section id="profile" className="py-5 grid place-items-center">
+      <section id="profile" className="py-5 my-10 grid place-items-center">
       {/* Image profile */}
       <div className="profile-image-container h-56 aspect-square bg-center bg-cover bg-no-repeat border-2 border-black my-5"></div>
       {/* Profile title */}

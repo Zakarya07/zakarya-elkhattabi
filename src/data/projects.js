@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Parti radical",
     description:
-      "Application de réseau social pour connecter les gens. Ut quis quam eu lorem ullamcorper eleifend.",
+    "Réalisation d'un site institutionnel avec un thème personnalisé, impliquant le développement de fonctionnalités spécifiques à l'aide de Custom Post Types (CPT) et Advanced Custom Fields (ACF). Les principales problématiques rencontrées incluaient la nécessité d'une adaptation rapide aux changements et les défis inhérents à la mise en œuvre du premier site utilisant un thème personnalisé.",
     technologies: [
       "WordPress",
       "jQuery",
@@ -24,7 +24,7 @@ const projects = [
 {
     title: "Mon vieux grimoire",
     description:
-    "Application de suivi des prix des cryptomonnaies. Vestibulum sed fermentum libero. Aliquam erat volutpat.",
+    "Réalisation d'une API CRUD dédiée à la gestion sécurisée d'une bibliothèque de livres pour une application moderne. Les principales problématiques rencontrées ont été la modélisation complexe des données liées aux livres, la gestion des opérations CRUD et la mise en place d'un système d'authentification robuste avec gestion de tokens pour assurer la sécurité des données sensibles.",
     technologies: [
         "NodeJs",
         "ExpressJs",
@@ -45,7 +45,7 @@ const projects = [
   {
     title: "Kasa",
     description:
-      "Plateforme de vente en ligne pour divers produits. Vivamus et nisi sed odio fermentum ullamcorper.",
+      "Développement d'une plateforme web moderne pour répertorier des appartements, utilisant SASS pour un style CSS moderne. Les principaux défis ont été la mise en place du routage pour naviguer entre les différentes pages, l'utilisation de props pour gérer les données et l'adoption de la syntaxe JSX pour la création des composants.",
     technologies: ["React", "SCSS", "JSON"],
     imageUrl: Kasa,
     githubUrl: [

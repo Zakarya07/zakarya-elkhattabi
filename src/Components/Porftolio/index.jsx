@@ -3,7 +3,7 @@ import SectionTitles from "../SectionTitles";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio-projects-container">
+    <section id="portfolio-projects-container" className="my-10">
       <SectionTitles title="Portfolio">
         Chaque projet est une unique pièce de développement 🧩
       </SectionTitles>
