@@ -13,27 +13,30 @@ const AboutMe = () => {
   ];
 
   return (
-    <section id="about-me" className="p-1 my-10">
+    <section id="about-me" className="p-1 my-10 lg:grid lg:grid-cols-2 lg:gap-20 lg:my-20 ">
       {/* Image container */}
-      <div className="image-container h-56 relative">
+      <div className="image-container h-56 relative lg:h-full">
         <img
           src={code_image}
           className="h-full w-full object-cover rounded-xl"
           alt="a propos de moi"
         />
-        <div className="badge absolute h-28 aspect-square shadow-sm shadow-teal-800 rounded-full -bottom-10 -right-10">
+        <div className="badge absolute h-32 aspect-square shadow-lg shadow-indigo-100 rounded-full -bottom-10 -right-10 hidden lg:block">
           <img
             src={badge}
             className=" object-cover h-full w-full rounded-full"
+            alt="badge de développeur"
           />
         </div>
       </div>
       {/* Content container */}
-      <div className="text-container">
-        <SectionTitles title="Deux mots sur moi!">
+      <div className="text-container lg:flex lg:flex-col lg:justify-between">
+
+        <SectionTitles className="lg:text-left lg:my-0 lg:py-0" title="Deux mots sur moi!">
           Un passioné du développement web, basé à Paris, France 📍
         </SectionTitles>
-        <div className="about-me-description text-sm text-gray-500 text-center flex flex-col gap-3 px-3">
+
+        <div className="about-me-description text-sm text-gray-600 text-center flex flex-col gap-3 px-3 lg:gap-1 lg:text-left lg:px-0">
           <p>
             Après plusieurs stages et formations dans divers domaines où il
             était difficile de trouver ma place, une décision audacieuse a été
@@ -51,14 +54,17 @@ const AboutMe = () => {
             expériences en ligne mémorables et efficaces.
           </p>
         </div>
+
       </div>
-      <div className="formations-container flex flex-wrap gap-x-10 gap-y-8 my-12 p-1 justify-center">
+
+      <div className="formations-container flex flex-wrap gap-x-10 gap-y-8 my-12 p-1 justify-center lg:col-span-full lg:justify-evenly">
         {logos.map((logo, index) => (
-          <div className={`${logo.name}-container w-28 aspect-video`} key={`${index}-${logo.name}`} title={logo.name}>
+          <div className={`${logo.name}-container w-28 aspect-video lg:w-36`} key={`${index}-${logo.name}`} title={logo.name}>
             <img src={logo.icon_img} className="w-full h-full object-contain " alt="icone" />
           </div>
         ))}
       </div>
+
     </section>
   );
 };

@@ -1,0 +1,11 @@
+@import "../../index.scss";
+
+.section-titles-container > h2{
+    color:$section-title-primary;
+}
+
+@media screen and (min-width:1024px) {
+    .section-titles-container > h2{
+        padding: 0;
+    }
+}

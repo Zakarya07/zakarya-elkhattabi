@@ -16,27 +16,27 @@ const Header = () => {
 
   return (
     <header className="bg-white fixed z-10 top-0 w-full">
-      <nav className="navbar-container p-5 flex justify-between">
+      <nav className="navbar-container py-5 px-10 flex justify-between lg:py-8">
         {/* Logo container */}
         <div className="logo-container">
           <h2 className="text-xl font-extrabold">Zakarya.dev</h2>
         </div>
 
-        <ul className="menu-links hidden lg:flex ">
+        <ul className="menu-links hidden lg:flex lg:gap-x-5 font-semibold">
           <li>
-            <a href="#header">Accueil</a>
+            <a href="#profile">Accueil</a>
           </li>
           <li>
-            <a href="#about-section">À propos</a>
+            <a href="#about-me">À propos</a>
           </li>
           <li>
-            <a href="#portfolio-section">Projets</a>
+            <a href="#portfolio-projects-container">Projets</a>
           </li>
           <li>
             <a href="#footer">Contact</a>
           </li>
         </ul>
-
+    {/* Open menu button */}
         <div
           className="open-menu-mobile text-2xl lg:hidden"
           onClick={() => {
@@ -53,7 +53,7 @@ const Header = () => {
           isClosed ? "menu-mobile" : "menu-mobile-active"
         } bg-white fixed top-0 z-10 h-screen w-full text-2xl`}
       >
-        {/* Close button  */}
+        {/* Close menu button  */}
         <div
           className="close-menu-mobile flex justify-end p-5"
           onClick={() => {
@@ -73,13 +73,13 @@ const Header = () => {
           }}
         >
           <li>
-            <a className="inline-block p-3" href="#header">Accueil</a>
+            <a className="inline-block p-3" href="#profile">Accueil</a>
           </li>
           <li>
-            <a className="inline-block p-3" href="#about-section">À propos</a>
+            <a className="inline-block p-3" href="#about-me">À propos</a>
           </li>
           <li>
-            <a className="inline-block p-3" href="#portfolio-section">Projets</a>
+            <a className="inline-block p-3" href="#portfolio-projects-container">Projets</a>
           </li>
           <li>
             <a className="inline-block p-3" href="#footer">Contact</a>

@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+$section-title-primary: #0487FF;
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -16,7 +21,6 @@
   padding-left: 12px;
   padding-right: 12px;
 }
-
 
 // Profile image
 .profile-image-container {
