@@ -1,14 +1,15 @@
 import ContactIconBox from "../ContactIconBox";
-import { FaMobileRetro } from "react-icons/fa6";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { FaEnvelopeOpenText } from "react-icons/fa6";
-import { FaMapLocationDot } from "react-icons/fa6";
+import { GrMapLocation } from "react-icons/gr";
+
 
 const ContactInfo = () => {
   return (
     <div className="contact-info-container flex flex-col gap-6 lg:my-10 lg:flex-row lg:justify-between">
       {/*  Localisation */}
       <ContactIconBox title="Localisation" value="Paris, France">
-      <FaMapLocationDot/>
+      <GrMapLocation/>
       </ContactIconBox>
 
       {/* Email */}
@@ -18,7 +19,7 @@ const ContactInfo = () => {
 
       {/* Phone */}
       <ContactIconBox title="Téléphone portable" value="07 88 09 26 70">
-      <FaMobileRetro/>
+      <TbDeviceLandlinePhone/>
       </ContactIconBox>
 
     </div>

@@ -13,9 +13,9 @@ const Project = () => {
         className={`${uniqueness} shadow-lg shadow-gray-100 py-5 px-3 lg:px-1 lg:flex lg:gap-x-10 lg:py-1 lg:even:flex-row-reverse `}
       >
         {/* ---------- Picture */}
-        <div className="project-thumbnail h-52 w-full lg:w-1/2 lg:h-full">
+        <div className="project-thumbnail h-52 w-full lg:w-1/2 lg:h-full lg:rounded-2xl lg:p-1 lg:shadow-md lg:shadow-slate-200">
           <img
-            className="h-full w-full object-cover object-left-top rounded-xl shadow-sm shadow-gray-200 border border-slate-300 lg:object-center lg:object-contain lg:border-slate-100"
+            className="h-full w-full object-contain object-top lg:object-center lg:object-contain lg:border-slate-100"
             src={project.imageUrl}
             alt={`${project.name} project thumbnail`}
           />

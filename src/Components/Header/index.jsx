@@ -3,6 +3,7 @@ import { GrClose } from "react-icons/gr";
 import "./index.scss";
 import { useState } from "react";
 
+
 const Header = () => {
   const [isClosed, setClosed] = useState(true);
 
@@ -24,16 +25,16 @@ const Header = () => {
 
         <ul className="menu-links hidden lg:flex lg:gap-x-5 font-semibold">
           <li>
-            <a href="#profile">Accueil</a>
+            <a className="hover:text-sky-700" href="#profile">Accueil</a>
           </li>
           <li>
-            <a href="#about-me">À propos</a>
+            <a className="hover:text-sky-700" href="#about-me">À propos</a>
           </li>
           <li>
-            <a href="#portfolio-projects-container">Projets</a>
+            <a className="hover:text-sky-700" href="#portfolio-projects-container">Projets</a>
           </li>
           <li>
-            <a href="#footer">Contact</a>
+            <a className="hover:text-sky-700" href="#footer">Contact</a>
           </li>
         </ul>
     {/* Open menu button */}
