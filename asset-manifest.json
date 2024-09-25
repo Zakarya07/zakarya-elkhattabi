@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zakarya-elkhattabi/static/css/main.00d1c991.css",
-    "main.js": "/zakarya-elkhattabi/static/js/main.84f14c99.js",
+    "main.js": "/zakarya-elkhattabi/static/js/main.e21fce8b.js",
     "static/media/about-section.jpg": "/zakarya-elkhattabi/static/media/about-section.85c861f39a6d893ae47d.jpg",
     "static/media/Kasa.jpg": "/zakarya-elkhattabi/static/media/Kasa.92d2fe560fc630c2503d.jpg",
     "static/media/self-learning.jpg": "/zakarya-elkhattabi/static/media/self-learning.fb2fba2b3e8d66676cac.jpg",
@@ -11,10 +11,10 @@
     "static/media/Logo_simplon.png": "/zakarya-elkhattabi/static/media/Logo_simplon.1fda12f09cf9b391898c.png",
     "index.html": "/zakarya-elkhattabi/index.html",
     "main.00d1c991.css.map": "/zakarya-elkhattabi/static/css/main.00d1c991.css.map",
-    "main.84f14c99.js.map": "/zakarya-elkhattabi/static/js/main.84f14c99.js.map"
+    "main.e21fce8b.js.map": "/zakarya-elkhattabi/static/js/main.e21fce8b.js.map"
   },
   "entrypoints": [
     "static/css/main.00d1c991.css",
-    "static/js/main.84f14c99.js"
+    "static/js/main.e21fce8b.js"
   ]
 }
