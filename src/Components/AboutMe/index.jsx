@@ -33,7 +33,7 @@ const AboutMe = () => {
       <div className="text-container lg:flex lg:flex-col lg:justify-between">
 
         <SectionTitles className="lg:text-left lg:my-0 lg:py-0" title="Deux mots sur moi!">
-          Un passioné du développement web, basé à Paris, France 📍
+          Un passionné du développement web, basé à Paris, France 📍
         </SectionTitles>
 
         <div className="about-me-description text-sm text-gray-600 text-center flex flex-col gap-3 px-3 lg:gap-1 lg:text-left lg:px-0">

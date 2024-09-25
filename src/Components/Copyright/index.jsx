@@ -10,8 +10,7 @@ const Copyright = () => {
       {/* Copyright name */}
       <div className="copyright-text font-bold">
         <p>
-          Copyright &copy; <span className="copyright-year">{year}</span>. All
-          rights reserved
+          Copyright &copy; <span className="copyright-year">{year}</span> - Tous droits réservés
         </p>
       </div>
       {/* Socials */}

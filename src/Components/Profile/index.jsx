@@ -15,7 +15,7 @@ const Profile = () => {
           Développeur web full-stack  MERN 👋
         </h1>
         <h2 className="text-sm tracking-wide">
-          Salut moi c'est Zakarya, un Développeur Web passioné basé à Paris,
+          Salut moi c'est Zakarya, un Développeur Web passionné basé à Paris,
           France. 📍
         </h2>
         {/* Profile socials */}
